@@ -14,7 +14,7 @@ after round   P(A wins)   P(B wins)
         ...
 ```
 
-It is a small logistic model (5 weights per feature, about 120 numbers in all),
+It is a small logistic model: 120 weights (5 for each of 23 features and the side),
 fitted on about 5,700 real games. There is no neural network, and the scorer
 has no dependencies. Reading replays needs `pycapnp`.
 
